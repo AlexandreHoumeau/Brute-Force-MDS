@@ -33,7 +33,7 @@ export default function Login() {
   return (
     <figure className="h-screen flex bg-gray-100">
       {isValid ? (
-        <div>Vous êtes connecté</div>
+        <span>Vous êtes connecté</span>
       ) : (
         <div className="w-full max-w-md m-auto bg-white rounded-lg border border-primaryBorder shadow-default py-10 px-1">
           <blockquote className="text-2xl font-medium text-center">
